@@ -1,0 +1,7 @@
+﻿@model RaZorWebxxx.Models.ProductModel
+@{ 
+    var product = ViewData["product"] as ProductModel;
+        }
+<p>@ViewData["Title"]</p>
+<h1>@product.Name</h1>
+<p>Giá @product.Price</p>

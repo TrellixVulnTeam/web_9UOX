@@ -1,0 +1,11 @@
+﻿
+@using RaZorWebxxx.Models
+@model List<ProductModel>
+    <h1>Danh sach san pham </h1>
+    <ul>
+        @foreach(var prodduct in Model)
+            {
+                <li>@prodduct.Name</li>
+            }
+        <li></li>
+    </ul>
